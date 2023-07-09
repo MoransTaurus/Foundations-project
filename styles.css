@@ -16,9 +16,12 @@ body {
   padding: 45px 150px;
 }
 
+
 .nav .container {
   display: flex;
   justify-content: space-between;
+  height: 100%;
+  padding: 0px 150px  45px 150px;
 }
 
 a {
@@ -97,8 +100,8 @@ p.roman {
 .card {
   height: 125px;
   border-width: 3px;
-  border: 2px solid blue;
-  border-radius: 5px;
+  border: 3px solid blue;
+  border-radius: 10px;
 }
 
 .cards .h2 {
@@ -107,13 +110,11 @@ p.roman {
 }
 
 .cards .container {
-  justify-content: space-between;
+  /* justify-content: space-around;
+  flex: 0; */
+  justify-content: center;
+  gap: 50px;
 }
-
-
-
-
-
 
 /* .container-blue {
   
@@ -130,37 +131,43 @@ p.roman {
 } */
 
 .container-blue {
-    color: #F9FAF8;
-    border-radius: 5px;
-    padding: 45px;
+  /* display: flex;
+   align-items: center;
+  justify-content: center; */
+  color: #f9faf8;
+  border-radius: 5px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  padding: 45px 150px;
+  justify-content: center;
+  
 }
 
 .small-blue {
-    display: flex;
-    background-color: #3882F6;
-    justify-content: space-between;
-    align-items: center; /* Align the items vertically in the center */
-    border-radius: 10px;
-    padding: 45px;
+  display: flex;
+  background-color: #3882f6;
+  justify-content: space-between;
+  align-items: center; /* Align the items vertically in the center */
+  border-radius: 10px;
+  padding: 45px;
+  flex-grow: 1;
 }
 
 button {
-    background-color: #3882F6; /* Transparent background */
-    font-weight: bold;
-    color: white; /* White text */
-    border: 2px solid white; /* 2px white border */
-    border-radius: 12px; /* Rounded corners */
-    padding: 10px 20px; /* Some padding */
-    text-decoration: none; /* Remove default underline */
-    font-size: 16px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
+  background-color: #3882f6; /* Transparent background */
+  font-weight: bold;
+  color: white; /* White text */
+  border: 2px solid white; /* 2px white border */
+  border-radius: 12px; /* Rounded corners */
+  padding: 10px 20px; /* Some padding */
+  text-decoration: none; /* Remove default underline */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
 }
 
 .footer {
   display: flex;
-   background-color: #1f2937;
-   color: #e5e7eb;
-  
-
-
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
