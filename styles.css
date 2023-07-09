@@ -60,6 +60,7 @@ ul {
 .header p {
   color: #e5e7eb;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 h1,
@@ -75,22 +76,22 @@ img {
 .quote {
   background-color: #e5e7eb;
   justify-content: center;
-  color: #1F2937;
+  color: #1f2937;
   font-size: 36px;
   font-weight: light;
   font-style: italic;
 }
 
 .quote .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 p.roman {
-    font-style: normal;
-    font-size: 24px;
-    font-weight: bold;
-    align-self: flex-end;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: bold;
+  align-self: flex-end;
 }
 
 .card {
@@ -110,3 +111,56 @@ p.roman {
 }
 
 
+
+
+
+
+/* .container-blue {
+  
+  color: #F9FAF8;
+  border-radius: 5px;
+  padding: 45px;
+}
+
+.small-blue {
+  display:flex;
+   background-color: #3882F6;
+   justify-content: space-between;
+  
+} */
+
+.container-blue {
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 45px;
+}
+
+.small-blue {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center; /* Align the items vertically in the center */
+    border-radius: 10px;
+    padding: 45px;
+}
+
+button {
+    background-color: #3882F6; /* Transparent background */
+    font-weight: bold;
+    color: white; /* White text */
+    border: 2px solid white; /* 2px white border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 10px 20px; /* Some padding */
+    text-decoration: none; /* Remove default underline */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+.footer {
+  display: flex;
+   background-color: #1f2937;
+   color: #e5e7eb;
+  
+
+
+}
