@@ -95,7 +95,14 @@ p.roman {
   font-size: 22px;
   font-weight: bold;
   align-self: flex-end;
+ 
 }
+
+/* .Roman {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
 
 .card {
   height: 125px;
@@ -170,4 +177,16 @@ button {
   display: flex;
   background-color: #1f2937;
   color: #e5e7eb;
+}
+
+
+@media(max-width: 768px) {
+
+ .container {
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center; 
+  }
+
+  
 }
